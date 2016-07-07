@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="utf-8"/>
+    <title>Angular GOD</title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/>
+    <script src="app/app.js"></script>
+</head>
+<body ng-app="rootModule">
+    <h1>Angular GOD</h1>
+
+    <div id="content">
+        Angular is calculating 1+2 = {{1+2}}
+        <div ui-view="main">
+
+        </div>
+    </div>
+</body>
+</html>
